@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "584cdcced1516255b6bc",
+    "revision": "830e9bd62afed5c35ebb",
     "url": "/todolist-solidity/static/css/main.667630a2.chunk.css"
   },
   {
-    "revision": "584cdcced1516255b6bc",
-    "url": "/todolist-solidity/static/js/main.584cdcce.chunk.js"
+    "revision": "830e9bd62afed5c35ebb",
+    "url": "/todolist-solidity/static/js/main.830e9bd6.chunk.js"
   },
   {
     "revision": "5d454fef00ae79c9226e",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/todolist-solidity/static/js/runtime~main.9dcc4cbf.js"
   },
   {
-    "revision": "693e0f4d4cda1433728b3fb96eb4e86d",
+    "revision": "c73fd8c8b19e45428620c1fda509d24a",
     "url": "/todolist-solidity/index.html"
   }
 ];
