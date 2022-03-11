@@ -1,5 +1,6 @@
 {
   "name": "hardhat-project",
+  "homepage": "https://hazelwu2.github.io/todolist-solidity/",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
