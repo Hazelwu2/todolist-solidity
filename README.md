@@ -5,15 +5,6 @@
 
 ## 啟動專案
 
-### 修改合約地址
-新合約 deploy完後，每次會產生新的合約地址
-到 `HomeworkSubmission2/homeworks/week4/todo-list/eth-todo-list-react/src/App.js` 修改 TodoList 合約地址
-修改完成後，Dapp React 才可順利連接到合約
-
-```
-const TodoListAddress = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"
-```
-
 ### 建立.env
 將 `.env.example` 複製內容，新建檔案 `.env`，並填上對應的值
 - INFURA_PROJECT_SECRET：使用 [Infura](https://infura.io/) 服務提供的 SECRET
@@ -47,6 +38,16 @@ cd eth-todo-list-react && npm install
 npm run start
 ```
 
+### 修改合約地址
+新合約 deploy完後，每次會產生新的合約地址
+到 `HomeworkSubmission2/homeworks/week4/todo-list/eth-todo-list-react/src/App.js` 修改 TodoList 合約地址
+修改完成後，Dapp React 才可順利連接到合約
+
+```
+const TodoListAddress = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"
+```
+
+
 ## 更改合約 Code
 更改合約Code後，需要重新編譯 compile，再重新部署，`--network`參數改成你要部署的網路
 ```
@@ -74,7 +75,12 @@ npx hardhat test
 # 查詢 hardhad 所有指令
 npx hardhat help
 ```
-
+## 部署 github page
+```
+$ cd client
+$ npm run deploy
+```
+![React gh-pages 部署文件](https://create-react-app.dev/docs/deployment/#github-pages)
 
 ## 坑
 ### 出現錯誤訊息 TypeError: state.buffer is not iterable
