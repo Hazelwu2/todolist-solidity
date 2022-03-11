@@ -6,7 +6,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import TodoListContract from './artifacts/contracts/TodoList.sol/TodoList.json'
 import TodoList from './TodoList'
 
-const TodoListAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+const TodoListAddress = "0xa50764364bc5a88445B3bA14D979Ec1e0a02afce"
 const web3 = new Web3(Web3.givenProvider || 'http://localhost:7545')
 
 class App extends Component {
